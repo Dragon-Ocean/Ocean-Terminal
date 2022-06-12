@@ -45,5 +45,7 @@ while True:
 		gettime()
 	elif todo=="date":
 		gettime()
+	elif todo=="sudo":
+		
 	else:
-		print("Ocean:Command "+str(todo)+" not found.")
+		print("Ocean:Command '"+str(todo)+"' not found.")
